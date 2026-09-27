@@ -1,7 +1,7 @@
 const socials = [
   { name: 'Instagram', url: 'https://www.instagram.com/thejarett/' },
   { name: 'LinkedIn', url: 'https://www.linkedin.com/in/jarettwalen/' },
-  { name: 'TikTok', url: 'https://www.tiktok.com/@thejarett' },
+  { name: 'TikTok', url: 'https://www.tiktok.com/@jaybear64' },
 ]
 
 export default function Hero() {
@@ -10,7 +10,7 @@ export default function Hero() {
       <div className="hero-inner">
         <p className="hero-kicker">Artist &bull; Author &bull; Web Developer</p>
         <h1>Jarett Walen</h1>
-        <p className="hero-sub">Toledo, Ohio artist and super geek. He/him.</p>
+        <p className="hero-sub">Ohio artist and super geek. He/him.</p>
         <nav className="socials" aria-label="Social links">
           {socials.map((s) => (
             <a key={s.name} href={s.url} target="_blank" rel="noreferrer">
