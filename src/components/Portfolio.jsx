@@ -61,7 +61,7 @@ export default function Portfolio() {
 
       {active && (
         <div className="lightbox" onClick={close} role="dialog" aria-modal="true">
-          <img src={active.src} alt={active.title} onClick={(e) => e.stopPropagation()} />
+          <img src={active.src} alt={active.title} onClick={close} />
           <p className="lightbox-caption">{active.title} &mdash; <span>click anywhere to close</span></p>
           <button className="lightbox-close" onClick={close} aria-label="Close">&times;</button>
         </div>
