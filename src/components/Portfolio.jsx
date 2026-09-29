@@ -1,3 +1,6 @@
+// Portfolio grid with lightbox.
+// Artwork lives in /public/art; ALTS maps filenames to alt text and
+// captions are hidden from display but kept for screen readers.
 import { useState, useRef } from 'react'
 
 const pieces = [

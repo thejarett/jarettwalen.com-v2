@@ -1,3 +1,5 @@
+// Hero/header: name, tagline, social links, and signature image.
+// SOCIALS is the single source of truth for social URLs (shared intent with Contact).
 const socials = [
   { name: 'Instagram', url: 'https://www.instagram.com/thejarett/' },
   { name: 'LinkedIn', url: 'https://www.linkedin.com/in/jarettwalen/' },

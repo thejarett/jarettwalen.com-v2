@@ -1,3 +1,5 @@
+// About section: bio, skills list, and art background.
+// Purely presentational; content is static.
 export default function About() {
   return (
     <section id="about" className="section">

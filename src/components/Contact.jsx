@@ -1,3 +1,5 @@
+// Contact section: form posts to FormSubmit (thejarett@proton.me) and
+// falls back to direct social links. No backend of our own.
 import { useState } from 'react'
 
 export default function Contact() {

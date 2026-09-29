@@ -1,3 +1,4 @@
+// Footer: copyright and small print.
 export default function Footer() {
   const year = new Date().getFullYear()
   return (

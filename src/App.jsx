@@ -1,3 +1,5 @@
+// Root layout: composes the single-page sections in display order.
+// Section shading alternates via the `section-alt` class (see styles.css).
 import { useState } from 'react'
 import Hero from './components/Hero'
 import Portfolio from './components/Portfolio'

@@ -1,3 +1,4 @@
+// Comic section: promotes "Wait of Gravity" with an Amazon buy link.
 export default function Comic() {
   return (
     <section id="comic" className="section section-alt">

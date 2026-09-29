@@ -1,3 +1,5 @@
+// Commissions section: describes commission process and rates.
+// No external links beyond contact routing.
 export default function Commissions() {
   return (
     <section id="commissions" className="section">

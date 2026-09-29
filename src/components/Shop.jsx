@@ -1,3 +1,5 @@
+// Shop section: merch links. Sooper entry is commented out
+// until that shop goes live; uncomment to re-add.
 const shops = [
   // Hidden until the Sooper shop is live:
   // { name: 'Sooper', url: 'https://sooper.app/thejarett', desc: 'Commissions and web dev work' },
